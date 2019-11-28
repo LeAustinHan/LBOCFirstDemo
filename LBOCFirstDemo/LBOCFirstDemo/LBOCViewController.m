@@ -6,13 +6,13 @@
 //  Copyright © 2019 LBOC. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LBOCViewController.h"
 
-@interface ViewController ()
+@interface LBOCViewController ()
 
 @end
 
-@implementation ViewController
+@implementation LBOCViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
