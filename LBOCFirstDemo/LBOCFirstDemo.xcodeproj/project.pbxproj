@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,14 @@
 		041D251A238FCE1E00F2A39D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D2519238FCE1E00F2A39D /* main.m */; };
 		041D2524238FCE1E00F2A39D /* LBOCFirstDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D2523238FCE1E00F2A39D /* LBOCFirstDemoTests.m */; };
 		041D252F238FCE1E00F2A39D /* LBOCFirstDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D252E238FCE1E00F2A39D /* LBOCFirstDemoUITests.m */; };
+		042104DC2394BC3900F8CC5E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042104DB2394BC3900F8CC5E /* CoreLocation.framework */; };
+		042104E92394C17000F8CC5E /* LBOCLocationInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 042104E82394C17000F8CC5E /* LBOCLocationInfoViewModel.m */; };
+		042104EC2394C18300F8CC5E /* LBOCLocationInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042104EB2394C18300F8CC5E /* LBOCLocationInfoView.m */; };
+		042104EE2394D6EF00F8CC5E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042104ED2394D6EF00F8CC5E /* MapKit.framework */; };
+		042104F12394DD0700F8CC5E /* LBOCMapLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042104F02394DD0700F8CC5E /* LBOCMapLocationViewController.m */; };
+		1033E64FD01708E3979C2FB7 /* Pods_LBOCFirstDemo_LBOCFirstDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC8309346AB89FB5DB05A18 /* Pods_LBOCFirstDemo_LBOCFirstDemoUITests.framework */; };
+		AFEBF3C1429C034507763F4F /* Pods_LBOCFirstDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50526A03247622F89E8B5DE8 /* Pods_LBOCFirstDemo.framework */; };
+		E280A693C6DE1C5BD6BDD56C /* Pods_LBOCFirstDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D9AB1059EDEA0421224DF0 /* Pods_LBOCFirstDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +62,23 @@
 		041D252A238FCE1E00F2A39D /* LBOCFirstDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBOCFirstDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041D252E238FCE1E00F2A39D /* LBOCFirstDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBOCFirstDemoUITests.m; sourceTree = "<group>"; };
 		041D2530238FCE1E00F2A39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042104DB2394BC3900F8CC5E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		042104E72394C17000F8CC5E /* LBOCLocationInfoViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBOCLocationInfoViewModel.h; sourceTree = "<group>"; };
+		042104E82394C17000F8CC5E /* LBOCLocationInfoViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBOCLocationInfoViewModel.m; sourceTree = "<group>"; };
+		042104EA2394C18300F8CC5E /* LBOCLocationInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBOCLocationInfoView.h; sourceTree = "<group>"; };
+		042104EB2394C18300F8CC5E /* LBOCLocationInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBOCLocationInfoView.m; sourceTree = "<group>"; };
+		042104ED2394D6EF00F8CC5E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		042104EF2394DD0700F8CC5E /* LBOCMapLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBOCMapLocationViewController.h; sourceTree = "<group>"; };
+		042104F02394DD0700F8CC5E /* LBOCMapLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBOCMapLocationViewController.m; sourceTree = "<group>"; };
+		327256AA2EAEAB88208AB127 /* Pods-LBOCFirstDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBOCFirstDemo.release.xcconfig"; path = "Target Support Files/Pods-LBOCFirstDemo/Pods-LBOCFirstDemo.release.xcconfig"; sourceTree = "<group>"; };
+		48D9AB1059EDEA0421224DF0 /* Pods_LBOCFirstDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBOCFirstDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CC8309346AB89FB5DB05A18 /* Pods_LBOCFirstDemo_LBOCFirstDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBOCFirstDemo_LBOCFirstDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50526A03247622F89E8B5DE8 /* Pods_LBOCFirstDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBOCFirstDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77E45B4081085E7C9957B038 /* Pods-LBOCFirstDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBOCFirstDemoTests.release.xcconfig"; path = "Target Support Files/Pods-LBOCFirstDemoTests/Pods-LBOCFirstDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		9138EDBF19734C512970746D /* Pods-LBOCFirstDemo-LBOCFirstDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBOCFirstDemo-LBOCFirstDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-LBOCFirstDemo-LBOCFirstDemoUITests/Pods-LBOCFirstDemo-LBOCFirstDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA63B86F4C9510D9D48AAFFB /* Pods-LBOCFirstDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBOCFirstDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-LBOCFirstDemoTests/Pods-LBOCFirstDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0D2FEFD60D47E90F827B9CB /* Pods-LBOCFirstDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBOCFirstDemo.debug.xcconfig"; path = "Target Support Files/Pods-LBOCFirstDemo/Pods-LBOCFirstDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CEE9FBD26CD5EB4CEBA80B33 /* Pods-LBOCFirstDemo-LBOCFirstDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBOCFirstDemo-LBOCFirstDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-LBOCFirstDemo-LBOCFirstDemoUITests/Pods-LBOCFirstDemo-LBOCFirstDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042104EE2394D6EF00F8CC5E /* MapKit.framework in Frameworks */,
+				042104DC2394BC3900F8CC5E /* CoreLocation.framework in Frameworks */,
+				AFEBF3C1429C034507763F4F /* Pods_LBOCFirstDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E280A693C6DE1C5BD6BDD56C /* Pods_LBOCFirstDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1033E64FD01708E3979C2FB7 /* Pods_LBOCFirstDemo_LBOCFirstDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +118,8 @@
 				041D2522238FCE1E00F2A39D /* LBOCFirstDemoTests */,
 				041D252D238FCE1E00F2A39D /* LBOCFirstDemoUITests */,
 				041D2505238FCE1C00F2A39D /* Products */,
+				E60997F0716602C68D18DC95 /* Pods */,
+				90413EB9A32173640C3E9E91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +142,7 @@
 				041D250B238FCE1C00F2A39D /* SceneDelegate.m */,
 				041D250D238FCE1C00F2A39D /* LBOCViewController.h */,
 				041D250E238FCE1C00F2A39D /* LBOCViewController.m */,
+				042104DD2394BD5400F8CC5E /* LocationGroup */,
 				041D2510238FCE1C00F2A39D /* Main.storyboard */,
 				041D2513238FCE1E00F2A39D /* Assets.xcassets */,
 				041D2515238FCE1E00F2A39D /* LaunchScreen.storyboard */,
@@ -137,6 +170,44 @@
 			path = LBOCFirstDemoUITests;
 			sourceTree = "<group>";
 		};
+		042104DD2394BD5400F8CC5E /* LocationGroup */ = {
+			isa = PBXGroup;
+			children = (
+				042104EA2394C18300F8CC5E /* LBOCLocationInfoView.h */,
+				042104EB2394C18300F8CC5E /* LBOCLocationInfoView.m */,
+				042104EF2394DD0700F8CC5E /* LBOCMapLocationViewController.h */,
+				042104F02394DD0700F8CC5E /* LBOCMapLocationViewController.m */,
+				042104E72394C17000F8CC5E /* LBOCLocationInfoViewModel.h */,
+				042104E82394C17000F8CC5E /* LBOCLocationInfoViewModel.m */,
+			);
+			path = LocationGroup;
+			sourceTree = "<group>";
+		};
+		90413EB9A32173640C3E9E91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				042104ED2394D6EF00F8CC5E /* MapKit.framework */,
+				042104DB2394BC3900F8CC5E /* CoreLocation.framework */,
+				50526A03247622F89E8B5DE8 /* Pods_LBOCFirstDemo.framework */,
+				4CC8309346AB89FB5DB05A18 /* Pods_LBOCFirstDemo_LBOCFirstDemoUITests.framework */,
+				48D9AB1059EDEA0421224DF0 /* Pods_LBOCFirstDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E60997F0716602C68D18DC95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0D2FEFD60D47E90F827B9CB /* Pods-LBOCFirstDemo.debug.xcconfig */,
+				327256AA2EAEAB88208AB127 /* Pods-LBOCFirstDemo.release.xcconfig */,
+				CEE9FBD26CD5EB4CEBA80B33 /* Pods-LBOCFirstDemo-LBOCFirstDemoUITests.debug.xcconfig */,
+				9138EDBF19734C512970746D /* Pods-LBOCFirstDemo-LBOCFirstDemoUITests.release.xcconfig */,
+				AA63B86F4C9510D9D48AAFFB /* Pods-LBOCFirstDemoTests.debug.xcconfig */,
+				77E45B4081085E7C9957B038 /* Pods-LBOCFirstDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041D2533238FCE1E00F2A39D /* Build configuration list for PBXNativeTarget "LBOCFirstDemo" */;
 			buildPhases = (
+				67F0F3071FBA5B22794D5156 /* [CP] Check Pods Manifest.lock */,
 				041D2500238FCE1C00F2A39D /* Sources */,
 				041D2501238FCE1C00F2A39D /* Frameworks */,
 				041D2502238FCE1C00F2A39D /* Resources */,
+				FB6B4203EF65BF11BDBE46BD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041D2536238FCE1E00F2A39D /* Build configuration list for PBXNativeTarget "LBOCFirstDemoTests" */;
 			buildPhases = (
+				77E1741FAD5360B5028818F0 /* [CP] Check Pods Manifest.lock */,
 				041D251B238FCE1E00F2A39D /* Sources */,
 				041D251C238FCE1E00F2A39D /* Frameworks */,
 				041D251D238FCE1E00F2A39D /* Resources */,
@@ -179,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 041D2539238FCE1E00F2A39D /* Build configuration list for PBXNativeTarget "LBOCFirstDemoUITests" */;
 			buildPhases = (
+				DD08EF4CA3B286B4801F742C /* [CP] Check Pods Manifest.lock */,
 				041D2526238FCE1E00F2A39D /* Sources */,
 				041D2527238FCE1E00F2A39D /* Frameworks */,
 				041D2528238FCE1E00F2A39D /* Resources */,
+				5B237629AB31B3C8331C663A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,6 +338,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B237629AB31B3C8331C663A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LBOCFirstDemo-LBOCFirstDemoUITests/Pods-LBOCFirstDemo-LBOCFirstDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LBOCFirstDemo-LBOCFirstDemoUITests/Pods-LBOCFirstDemo-LBOCFirstDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LBOCFirstDemo-LBOCFirstDemoUITests/Pods-LBOCFirstDemo-LBOCFirstDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67F0F3071FBA5B22794D5156 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LBOCFirstDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77E1741FAD5360B5028818F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LBOCFirstDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD08EF4CA3B286B4801F742C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LBOCFirstDemo-LBOCFirstDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB6B4203EF65BF11BDBE46BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LBOCFirstDemo/Pods-LBOCFirstDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LBOCFirstDemo/Pods-LBOCFirstDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LBOCFirstDemo/Pods-LBOCFirstDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		041D2500238FCE1C00F2A39D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -270,7 +449,10 @@
 				041D250F238FCE1C00F2A39D /* LBOCViewController.m in Sources */,
 				041D2509238FCE1C00F2A39D /* AppDelegate.m in Sources */,
 				041D251A238FCE1E00F2A39D /* main.m in Sources */,
+				042104EC2394C18300F8CC5E /* LBOCLocationInfoView.m in Sources */,
 				041D250C238FCE1C00F2A39D /* SceneDelegate.m in Sources */,
+				042104F12394DD0700F8CC5E /* LBOCMapLocationViewController.m in Sources */,
+				042104E92394C17000F8CC5E /* LBOCLocationInfoViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +557,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +609,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,9 +619,11 @@
 		};
 		041D2534238FCE1E00F2A39D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0D2FEFD60D47E90F827B9CB /* Pods-LBOCFirstDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54KUM57484;
 				INFOPLIST_FILE = LBOCFirstDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,9 +638,11 @@
 		};
 		041D2535238FCE1E00F2A39D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 327256AA2EAEAB88208AB127 /* Pods-LBOCFirstDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54KUM57484;
 				INFOPLIST_FILE = LBOCFirstDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -471,6 +657,7 @@
 		};
 		041D2537238FCE1E00F2A39D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA63B86F4C9510D9D48AAFFB /* Pods-LBOCFirstDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +677,7 @@
 		};
 		041D2538238FCE1E00F2A39D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77E45B4081085E7C9957B038 /* Pods-LBOCFirstDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +697,7 @@
 		};
 		041D253A238FCE1E00F2A39D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE9FBD26CD5EB4CEBA80B33 /* Pods-LBOCFirstDemo-LBOCFirstDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LBOCFirstDemoUITests/Info.plist;
@@ -526,6 +715,7 @@
 		};
 		041D253B238FCE1E00F2A39D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9138EDBF19734C512970746D /* Pods-LBOCFirstDemo-LBOCFirstDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LBOCFirstDemoUITests/Info.plist;

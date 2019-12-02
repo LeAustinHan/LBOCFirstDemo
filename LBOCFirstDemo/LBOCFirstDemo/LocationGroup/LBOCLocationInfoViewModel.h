@@ -1,21 +1,21 @@
 //
-//  ViewController.h
+//  LBOCLocationInfoViewModel.h
 //  LBOCFirstDemo
 //
-//  Created by Han Jize on 2019/11/28.
+//  Created by Han Jize on 2019/12/2.
 //  Copyright © 2019 LBOC. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 #import <CoreLocation/CoreLocation.h>//引入Corelocation框架
-#import "Masonry.h"
+NS_ASSUME_NONNULL_BEGIN
 
-@interface LBOCViewController : UIViewController<CLLocationManagerDelegate>
+@interface LBOCLocationInfoViewModel : NSObject<CLLocationManagerDelegate>
 
 @property (nonatomic, strong) CLLocationManager *locationManager;//设置manager
 @property (nonatomic, strong) NSString *currentCity;
 
-
 @end
 
+NS_ASSUME_NONNULL_END
