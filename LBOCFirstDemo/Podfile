@@ -1,6 +1,11 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/LeAustinHan/LBOCTestSDK.git'
+source 'https://github.com/LeAustinHan/HHPlayerSDK.git'
+
+
 target 'LBOCFirstDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
@@ -22,6 +27,15 @@ target 'LBOCFirstDemo' do
 
   pod 'YYModel','1.0.4'
   pod 'YYText','1.0.7'
-
+  #pod 'LBOCTestSDK'
+  #pod 'HHPlayerSDK'
+  pod 'BaiduMapKit'
+  pod 'BMKLocationKit'
+  
+  
+  
+  
+  pod 'LBOCTestSDK',   :path =>'../../LBOCTestSDK/'
+  pod 'HHPlayerSDK',   :path =>'../../HHPlayerSDK/'
 
 end
