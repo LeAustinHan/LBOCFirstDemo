@@ -6,9 +6,9 @@
 //  Copyright © 2019 LBOC. All rights reserved.
 //
 
-#import "QTXRouteAnnotation.h"
+#import "LBOCBDRouteAnnotation.h"
 
-@implementation QTXRouteAnnotation
+@implementation LBOCBDRouteAnnotation
 
 
 @end

@@ -18,19 +18,22 @@
 		041D252F238FCE1E00F2A39D /* LBOCFirstDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041D252E238FCE1E00F2A39D /* LBOCFirstDemoUITests.m */; };
 		042104DC2394BC3900F8CC5E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042104DB2394BC3900F8CC5E /* CoreLocation.framework */; };
 		042104E92394C17000F8CC5E /* LBOCLocationInfoViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 042104E82394C17000F8CC5E /* LBOCLocationInfoViewModel.m */; };
-		042104EC2394C18300F8CC5E /* LBOCLocationInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 042104EB2394C18300F8CC5E /* LBOCLocationInfoView.m */; };
 		042104EE2394D6EF00F8CC5E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 042104ED2394D6EF00F8CC5E /* MapKit.framework */; };
 		042104F12394DD0700F8CC5E /* LBOCMapLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 042104F02394DD0700F8CC5E /* LBOCMapLocationViewController.m */; };
 		044B385E23963055000A8CA7 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 044B385C23963055000A8CA7 /* libcrypto.a */; };
 		044B385F23963055000A8CA7 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 044B385D23963055000A8CA7 /* libssl.a */; };
 		04579A54239641E20069B765 /* LBOCBDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04579A53239641E20069B765 /* LBOCBDViewController.m */; };
-		04579A5723964C000069B765 /* QTXRouteAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04579A5623964C000069B765 /* QTXRouteAnnotation.m */; };
+		04579A5723964C000069B765 /* LBOCBDRouteAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04579A5623964C000069B765 /* LBOCBDRouteAnnotation.m */; };
 		04579A5923965AC40069B765 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04579A5823965AC40069B765 /* QuartzCore.framework */; };
 		04579A5B23965AE80069B765 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04579A5A23965AE80069B765 /* OpenGLES.framework */; };
 		04579A5D23965AF60069B765 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04579A5C23965AF60069B765 /* SystemConfiguration.framework */; };
 		04579A5F23965B060069B765 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04579A5E23965B060069B765 /* CoreGraphics.framework */; };
 		04579A6123965B120069B765 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04579A6023965B120069B765 /* Security.framework */; };
 		04579A66239671820069B765 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04579A65239671820069B765 /* UIImage+Rotate.m */; };
+		04579A6923974A0F0069B765 /* LBOCBDViewControllerVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 04579A6823974A0F0069B765 /* LBOCBDViewControllerVM.m */; };
+		04579A722397652C0069B765 /* LBOCBDViewController+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = 04579A712397652C0069B765 /* LBOCBDViewController+Map.m */; };
+		04579A75239765590069B765 /* LBOCBDViewController+Route.m in Sources */ = {isa = PBXBuildFile; fileRef = 04579A74239765590069B765 /* LBOCBDViewController+Route.m */; };
+		04579A782397695D0069B765 /* MBProgressHUD+PD.m in Sources */ = {isa = PBXBuildFile; fileRef = 04579A772397695D0069B765 /* MBProgressHUD+PD.m */; };
 		1033E64FD01708E3979C2FB7 /* Pods_LBOCFirstDemo_LBOCFirstDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CC8309346AB89FB5DB05A18 /* Pods_LBOCFirstDemo_LBOCFirstDemoUITests.framework */; };
 		AFEBF3C1429C034507763F4F /* Pods_LBOCFirstDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50526A03247622F89E8B5DE8 /* Pods_LBOCFirstDemo.framework */; };
 		E280A693C6DE1C5BD6BDD56C /* Pods_LBOCFirstDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48D9AB1059EDEA0421224DF0 /* Pods_LBOCFirstDemoTests.framework */; };
@@ -75,8 +78,6 @@
 		042104DB2394BC3900F8CC5E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		042104E72394C17000F8CC5E /* LBOCLocationInfoViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBOCLocationInfoViewModel.h; sourceTree = "<group>"; };
 		042104E82394C17000F8CC5E /* LBOCLocationInfoViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBOCLocationInfoViewModel.m; sourceTree = "<group>"; };
-		042104EA2394C18300F8CC5E /* LBOCLocationInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBOCLocationInfoView.h; sourceTree = "<group>"; };
-		042104EB2394C18300F8CC5E /* LBOCLocationInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBOCLocationInfoView.m; sourceTree = "<group>"; };
 		042104ED2394D6EF00F8CC5E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		042104EF2394DD0700F8CC5E /* LBOCMapLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBOCMapLocationViewController.h; sourceTree = "<group>"; };
 		042104F02394DD0700F8CC5E /* LBOCMapLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBOCMapLocationViewController.m; sourceTree = "<group>"; };
@@ -85,8 +86,8 @@
 		044B386F23963BD5000A8CA7 /* BMKPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKPrefixHeader.pch; sourceTree = "<group>"; };
 		04579A52239641E20069B765 /* LBOCBDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBOCBDViewController.h; sourceTree = "<group>"; };
 		04579A53239641E20069B765 /* LBOCBDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBOCBDViewController.m; sourceTree = "<group>"; };
-		04579A5523964C000069B765 /* QTXRouteAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTXRouteAnnotation.h; sourceTree = "<group>"; };
-		04579A5623964C000069B765 /* QTXRouteAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTXRouteAnnotation.m; sourceTree = "<group>"; };
+		04579A5523964C000069B765 /* LBOCBDRouteAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBOCBDRouteAnnotation.h; sourceTree = "<group>"; };
+		04579A5623964C000069B765 /* LBOCBDRouteAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBOCBDRouteAnnotation.m; sourceTree = "<group>"; };
 		04579A5823965AC40069B765 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		04579A5A23965AE80069B765 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		04579A5C23965AF60069B765 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -94,6 +95,14 @@
 		04579A6023965B120069B765 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		04579A64239671820069B765 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
 		04579A65239671820069B765 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		04579A6723974A0F0069B765 /* LBOCBDViewControllerVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBOCBDViewControllerVM.h; sourceTree = "<group>"; };
+		04579A6823974A0F0069B765 /* LBOCBDViewControllerVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBOCBDViewControllerVM.m; sourceTree = "<group>"; };
+		04579A702397652C0069B765 /* LBOCBDViewController+Map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LBOCBDViewController+Map.h"; sourceTree = "<group>"; };
+		04579A712397652C0069B765 /* LBOCBDViewController+Map.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LBOCBDViewController+Map.m"; sourceTree = "<group>"; };
+		04579A73239765590069B765 /* LBOCBDViewController+Route.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LBOCBDViewController+Route.h"; sourceTree = "<group>"; };
+		04579A74239765590069B765 /* LBOCBDViewController+Route.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "LBOCBDViewController+Route.m"; sourceTree = "<group>"; };
+		04579A762397695D0069B765 /* MBProgressHUD+PD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+PD.h"; sourceTree = "<group>"; };
+		04579A772397695D0069B765 /* MBProgressHUD+PD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+PD.m"; sourceTree = "<group>"; };
 		327256AA2EAEAB88208AB127 /* Pods-LBOCFirstDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBOCFirstDemo.release.xcconfig"; path = "Target Support Files/Pods-LBOCFirstDemo/Pods-LBOCFirstDemo.release.xcconfig"; sourceTree = "<group>"; };
 		48D9AB1059EDEA0421224DF0 /* Pods_LBOCFirstDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBOCFirstDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC8309346AB89FB5DB05A18 /* Pods_LBOCFirstDemo_LBOCFirstDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LBOCFirstDemo_LBOCFirstDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,8 +214,6 @@
 		042104DD2394BD5400F8CC5E /* LocationGroup */ = {
 			isa = PBXGroup;
 			children = (
-				042104EA2394C18300F8CC5E /* LBOCLocationInfoView.h */,
-				042104EB2394C18300F8CC5E /* LBOCLocationInfoView.m */,
 				042104EF2394DD0700F8CC5E /* LBOCMapLocationViewController.h */,
 				042104F02394DD0700F8CC5E /* LBOCMapLocationViewController.m */,
 				042104E72394C17000F8CC5E /* LBOCLocationInfoViewModel.h */,
@@ -223,8 +230,16 @@
 				044B386F23963BD5000A8CA7 /* BMKPrefixHeader.pch */,
 				04579A52239641E20069B765 /* LBOCBDViewController.h */,
 				04579A53239641E20069B765 /* LBOCBDViewController.m */,
-				04579A5523964C000069B765 /* QTXRouteAnnotation.h */,
-				04579A5623964C000069B765 /* QTXRouteAnnotation.m */,
+				04579A702397652C0069B765 /* LBOCBDViewController+Map.h */,
+				04579A712397652C0069B765 /* LBOCBDViewController+Map.m */,
+				04579A73239765590069B765 /* LBOCBDViewController+Route.h */,
+				04579A74239765590069B765 /* LBOCBDViewController+Route.m */,
+				04579A6723974A0F0069B765 /* LBOCBDViewControllerVM.h */,
+				04579A6823974A0F0069B765 /* LBOCBDViewControllerVM.m */,
+				04579A5523964C000069B765 /* LBOCBDRouteAnnotation.h */,
+				04579A5623964C000069B765 /* LBOCBDRouteAnnotation.m */,
+				04579A762397695D0069B765 /* MBProgressHUD+PD.h */,
+				04579A772397695D0069B765 /* MBProgressHUD+PD.m */,
 			);
 			path = Baidu;
 			sourceTree = "<group>";
@@ -535,14 +550,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04579A5723964C000069B765 /* QTXRouteAnnotation.m in Sources */,
+				04579A6923974A0F0069B765 /* LBOCBDViewControllerVM.m in Sources */,
+				04579A5723964C000069B765 /* LBOCBDRouteAnnotation.m in Sources */,
 				041D250F238FCE1C00F2A39D /* LBOCViewController.m in Sources */,
+				04579A722397652C0069B765 /* LBOCBDViewController+Map.m in Sources */,
 				041D2509238FCE1C00F2A39D /* AppDelegate.m in Sources */,
+				04579A782397695D0069B765 /* MBProgressHUD+PD.m in Sources */,
 				041D251A238FCE1E00F2A39D /* main.m in Sources */,
-				042104EC2394C18300F8CC5E /* LBOCLocationInfoView.m in Sources */,
 				041D250C238FCE1C00F2A39D /* SceneDelegate.m in Sources */,
 				042104F12394DD0700F8CC5E /* LBOCMapLocationViewController.m in Sources */,
 				04579A54239641E20069B765 /* LBOCBDViewController.m in Sources */,
+				04579A75239765590069B765 /* LBOCBDViewController+Route.m in Sources */,
 				04579A66239671820069B765 /* UIImage+Rotate.m in Sources */,
 				042104E92394C17000F8CC5E /* LBOCLocationInfoViewModel.m in Sources */,
 			);

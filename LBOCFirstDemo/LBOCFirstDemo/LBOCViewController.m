@@ -8,19 +8,12 @@
 
 #import "LBOCViewController.h"
 
-#import "LBOCLocationInfoView.h"
 #import <MapKit/MapKit.h>
-//#import "EasyGPSLocation.h"
 #import "LBOCMapLocationViewController.h"
 
-
 #import "LBOCHappyLocationManager.h"
-
 #import "LBOCHappyMapManager.h"
-
-
 #import "LBOCHanppyMapViewController.h"
-
 #import "LBOCBDViewController.h"
 
 @interface LBOCViewController ()
@@ -84,17 +77,6 @@
         make.centerX.equalTo(self.view);
         make.height.mas_equalTo(60);//设置绝对高度
         make.width.mas_equalTo(200);
-    }];
-    
-    LBOCLocationInfoView *locInfoView = [[LBOCLocationInfoView alloc] init];
-    locInfoView.backgroundColor = [UIColor lightGrayColor];
-    [self.view addSubview:locInfoView];
-    
-    [locInfoView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(shareLocationBaiDuButon).offset(80);
-        make.centerX.equalTo(shareLocationButon);
-        make.height.mas_equalTo(300);//设置绝对高度
-        make.width.mas_equalTo(400);
     }];
 
     [[LBOCHappyLocationManager sharedInstance] registerGPSLocationResultBlock:^(BOOL success) {

@@ -31,6 +31,7 @@ target 'LBOCFirstDemo' do
   #pod 'HHPlayerSDK'
   pod 'BaiduMapKit'
   pod 'BMKLocationKit'
+  pod 'MBProgressHUD'
   
   
   
