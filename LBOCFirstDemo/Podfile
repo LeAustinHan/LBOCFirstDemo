@@ -1,5 +1,8 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/LeAustinHan/HHBaseSpec.git'
+
 
 target 'LBOCFirstDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -7,21 +10,19 @@ target 'LBOCFirstDemo' do
 
   # Pods for LBOCFirstDemo
 
+  pod 'SDWebImage'
+  pod 'HHLBOCLibrary'
+  
+
   target 'LBOCFirstDemoTests' do
     inherit! :search_paths
     # Pods for testing
+    
   end
 
   target 'LBOCFirstDemoUITests' do
     # Pods for testing
   end
-
-  pod "AFNetworking", "~> 2.0"
-  pod 'Masonry','1.1.0'
-
-
-  pod 'YYModel','1.0.4'
-  pod 'YYText','1.0.7'
 
 
 end
